@@ -1,7 +1,49 @@
 body{
-	background: white url("images/background.jpg") no-repeat right bottom;
+	background: white url("images/bgd.jpg") no-repeat right bottom;
 }
 
-li a {
-	color: green;
+h1{
+	margin-top: 10%;
+	text-align: center;
+	color: 	lightblue;
 }
+@font-face {
+    font-family: Sansation Bold;
+    src: url(http://fontsforweb.com/);
+    font-weight: bold;
+}
+
+a:link{ text-decoration: none;}
+a:visited{ text-decoration: none;}
+a:hover{ 
+	text-decoration: none;
+	color: white;
+}
+a:active{ text-decoration: underline;}
+li a {color: black;}
+
+ul{
+	padding-left: 10px;
+	text-align: center;
+	list-style-type: none;
+}
+
+ul li .text{
+	padding-top: 20%;
+}
+
+.text{
+	margin-top: 10%;
+	padding-right: 20px;
+}
+
+.container{
+	margin-left: auto;
+    margin-right: auto;
+    padding-top: 4px;
+	width: 25%;
+	height: 25%;
+	background-color: rgba(135, 222, 202, 0.6);
+	border-radius: 25px;
+}
+
